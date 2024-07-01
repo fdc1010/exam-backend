@@ -38,7 +38,7 @@ app.use(bodyParser.json());
 
 app.use(morgan('dev'));
 
-app.use(authenticate);
+// app.use(authenticate);
 
 // Router
 app.use(constants.APPLICATION.url.basePath, indexRoute);
